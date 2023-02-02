@@ -9,7 +9,7 @@ stages {
 
    stage('hello')  {
         steps {
-          echo 'elloworld'
+          echo 'helloworld'
                  }
                     }
                            }
@@ -44,4 +44,17 @@ stages {
         }
 
 @Library('roboshop') _
- test()
+
+
+pipeline {
+agent any
+stages{
+stage('test'){
+steps{
+script{
+test()
+}
+}
+}
+}
+}
