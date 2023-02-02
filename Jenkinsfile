@@ -12,14 +12,14 @@ stages {
           echo 'helloworld'
                  }
                     }
-                           }
+
 
    stage('hello1')  {
         steps {
           echo 'helloworld jenkins'
                  }
                     }
-                           }
+
 
 
    stage('hello2')  {
@@ -27,7 +27,7 @@ stages {
           echo 'helloworld'
                  }
                     }
-                           }
+
 
  stage('Hello2') {
       steps {
