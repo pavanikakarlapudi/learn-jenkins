@@ -41,7 +41,7 @@ stages {
          echo "sending email"
        }
      }
-        }
+
 
 @Library('roboshop') _
 
